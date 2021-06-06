@@ -1,4 +1,6 @@
-# Mr-zec-tool 
+# Download GNU\Linux
 
-After downloading the file
+git clone https://mr-zec/Mr-zec-tool
+cd Mr-zec-tool
+chmod +x *
 python3 mycode.py
