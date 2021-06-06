@@ -19,11 +19,12 @@ bytes = random._urandom(1490)
 yesil = '\033[92m'
 
 os.system("clear")
-print(""" 
+print(KIRMIZI+""" 
 DDOS ATTCAK !!!
-##############################
+WELCOME 
+------------------------------
 https://instagram.com/mr_zeec/
-##############################
+------------------------------
 """)
 
 ip = raw_input("IP Target : ")
