@@ -32,6 +32,7 @@ print(KIRMIZI + """
 5: SHA2-256 (hash)
 6: FREE PROXY 
 7: DDOS Attack
+8: Test PROXY
 -----------------------------
 https://intagram.com/mr_zeec/
 -----------------------------
@@ -66,8 +67,13 @@ elif(islem == "6"):
 	print("File --> /root/Mrzec/proxy")
 
 elif(islem == "7"):
-	os.system("python ddos.py")
-	
+	os.system("python2 ddos.py")
+
+elif(islem == "8"):
+	print(KIRMIZI + "If you haven't tried number 6 and want to test your own proxy list, please create a file named proxy in the Mrzec directory and list the IP and port addresses one below the other (you don't need to do this if you are going to test the proxies in this tool) ")	
+	print(KIRMIZI + "Starting 3 sec!")
+	time.sleep(3)
+	os.system("python3 proxytest.py")
 else:
 	("ERROR !!!")
 ##Mr.zec https://intagram.com/mr_zeec/
